@@ -1,0 +1,45 @@
+/*NavBar*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    position: fixed;
+    top: 0;
+
+}
+
+#left {
+    display: flex;
+    font-family: "Changa", sans-serif;
+    font-size: 32px;
+    color: gray;
+    padding-left: 24px;
+
+}
+
+#Colmar {
+    font-weight: 700;
+    color: darkslategrey;
+    
+}
+
+#right {
+    display: flex;
+    align-items: center;
+    
+}
+
+#right a {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+    transition: color 150ms ease-in 400ms;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+#right a:hover {
+    color: black;
+}
