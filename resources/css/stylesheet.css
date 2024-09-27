@@ -75,7 +75,7 @@ nav {
     flex-wrap: wrap;
     flex-direction: column;
     align-content: flex-start;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Inner Tight", system-ui;
     color: rgb(97, 88, 88);
 
 }
